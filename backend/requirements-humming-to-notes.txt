@@ -1,0 +1,10 @@
+SoundFile
+resampy
+vamp
+MIDIUtil
+jams
+numpy
+scipy
+pandas
+pretty-midi
+flask
