@@ -1,9 +1,19 @@
 # Manual
+### Try It Out!!
+App Link: https://www.muswipe.com:23443
+### Announcement
+**Muswipe 2.0** is an update we aim to launch in 2024 to replace the current algorithmic approach of music generation with Machine Learning, particularly using generative models. We are currently testing a Markov Chain Model for melody generation, which can be found in backend/melody_generator.py and backend/AI_Music_Generator_Playground.py.    
+\
+Here is a sample we created using Markov Chain Model trained on Chinese Folk Song "Mo Li Hua" for melody generation. We used backend/mixmusic.py for adding harmonies and instrumentations:
+
+
+https://github.com/georegehehe/Muswipe/assets/42362524/74c2fef4-2f41-4bc4-bd94-c5fd0c141f9f
+
+
 ### Introduction
 > 1. Muswipe is a web application that automatically generates music from graphical inputs.
 > 2. Flask and Melodia are utilized to support Backend development, which enabled the uploading of the audio files and the conversion between graphical inputs and musical notes; they will later be fed into the codes from the original "musictest"-the core algorithm that harmonizes a single line of melody into a complete piece of song.
 > 3. Frontend development utilizes Vue to centralize all interactions with the canvas upon which users make their "drawings" that will be converted into music and played back as an audio file.
-> 4. Muswipe 2.0 is an update we aim to launch in 2024 to replace the current algorithmic approach of music generation with Machine Learning, particularly using generative models. We are currently testing a Markov Chain Model for melody generation, which can be found in backend/melody_generator.py and backend/AI_Music_Generator_Playground.py. 
 ### Features
 > 1. Once started, the webpage will show a large canvas labeled by musical notes as its y-axis and current beat as its x axis.
 > 2. One can imagine the canvas functioning in the same way as popular music-making applications like Garage Band, where one can click on any empty spot to represent the input of a note an reclick to destroy the input.
