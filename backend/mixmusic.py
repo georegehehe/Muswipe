@@ -308,7 +308,7 @@ def transnum(var1,var2):
             var2.append(reserved)
     return var2
 
-def determinelefthand(right_hand_music,down_beat_music,nameoffile='music.mp3',user_path=os.getcwd):
+def determinelefthand(right_hand_music,down_beat_music,nameoffile='music.mp3',user_path=os.getcwd()):
     global musicpiece2,musicpiece1
     global part1,part2
     global first_time
